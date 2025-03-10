@@ -23,6 +23,9 @@ importers:
       '@mapbox/rehype-prism':
         specifier: ^0.9.0
         version: 0.9.0
+      '@netlify/plugin-nextjs':
+        specifier: ^5.10.0
+        version: 5.10.0
       '@react-three/drei':
         specifier: ^9.109.2
         version: 9.117.3(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1))(@types/react@18.3.12)(@types/three@0.167.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)(use-sync-external-store@1.2.2(react@18.3.1))
@@ -435,6 +438,10 @@ packages:
     resolution: {integrity: sha512-ireqJg7cw0tUn/JePDG8rAL7RyXgUKSDbjYdiygkrnye1WuKGLAWDBwF/ICwCwJ9iZBAF5caU8gSu+c34HLGdQ==}
     peerDependencies:
       three: '>= 0.159.0'
+
+  '@netlify/plugin-nextjs@5.10.0':
+    resolution: {integrity: sha512-h2ugfCAQRhp6NIYABW+20AvVkrM/ReuELBfgkH+5DALfrKrsQXYeS1YPZi9y4bCfNFj8Zxdhu4DtuVFDiUONiA==}
+    engines: {node: '>=18.0.0'}
 
   '@next/env@14.2.5':
     resolution: {integrity: sha512-/zZGkrTOsraVfYjGP8uM0p6r0BDT6xWpkjdVbcz66PJVSpwXX3yNiRycxAuDfBKGWBrZBXRuK/YVlkNgxHGwmA==}
@@ -3519,6 +3526,8 @@ snapshots:
     dependencies:
       promise-worker-transferable: 1.0.4
       three: 0.167.1
+
+  '@netlify/plugin-nextjs@5.10.0': {}
 
   '@next/env@14.2.5': {}
 
